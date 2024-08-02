@@ -40,3 +40,46 @@ header{
     background-color: #ed5c13;
     cursor: pointer;
 }
+.one{
+    text-align: center;
+    background-color: #b8bfba;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.two{
+    text-align: center;
+    background-color: #b8bfba;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+footer{
+    font-weight: bolder;
+    background-color: #2e466e ;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    padding: 40px;
+    
+}
+@media screen and (max-width:500px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .section1{
+        width: 500px;
+        position: relative;
+        display: inline-block;
+        width: 250px;
+    }
+    
+}
