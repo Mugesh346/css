@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+.v-nav1{
+    display:flex;
+    flex-direction: column;
+    background-color: #161716;
+    width: 21%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    
+}
+.v-nav1 a img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+.v-nav1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    align-items: center;
+}.v-nav1 a span{
+    position: absolute;
+    padding-top: 5px;
+    
+}
+
+.v-nav2{
+    display:flex;
+    flex-direction: column;
+    background-color: #161716;
+    width: 21%;
+    border-radius: 10px;
+    padding: 10px 20px;margin-top: 10px;
+    height: 300px;
+    overflow-y: scroll;
+}
+.v-nav2 img{
+    width: 30px;
+    height: 30px;
+}
+.v-nav2 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    position: relative;
+    bottom: 8px;
+    
+}
+.v-nav2 .sub2{
+    background-color: #272928;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.v-nav2 .sub2 button{
+     padding: 10px;
+     font-weight: bold;
+     background-color: white;
+     border-radius: 20px;
+     border: none;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: 10px;
+     
+}
+
+ .sub3{
+    display: flex;
+    flex-direction: column;
+}
