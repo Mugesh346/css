@@ -1,11 +1,11 @@
 body{
     background-color: black;
 }
+
 .v-nav1{
     display:flex;
     flex-direction: column;
     background-color: #161716;
-    width: 21%;
     border-radius: 10px;
     padding: 10px 20px;
     
@@ -33,12 +33,15 @@ body{
     display:flex;
     flex-direction: column;
     background-color: #161716;
-    width: 21%;
+    
     border-radius: 10px;
     padding: 10px 20px;margin-top: 10px;
     height: 300px;
-    overflow-y: scroll;
+    overflow: hidden;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
 }
+
 .v-nav2 img{
     width: 30px;
     height: 30px;
@@ -52,7 +55,16 @@ body{
     bottom: 8px;
     
 }
-.v-nav2 .sub2{
+.sub-main{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 280px;
+}
+.sub-main:hover{
+    overflow-y:scroll ;
+}
+.sub-main .sub2{
     background-color: #272928;
     border-radius: 10px;
     padding: 10px 20px;
@@ -61,7 +73,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
-.v-nav2 .sub2 button{
+.sub-main .sub2 button{
      padding: 10px;
      font-weight: bold;
      background-color: white;
@@ -75,5 +87,77 @@ body{
 
  .sub3{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #161716;
+    height: 145px;
+    width: 320px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    
+    
+
+}
+.sub3 button{
+    font-weight: bold;
+    font-size: 16px;
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    border:1px solid white;
+    position: relative;height: 25px;
+    top: 2px;
+
+}
+.sub3 button img{
+    width: 20px;
+    height: 20px;
+}
+.sub3 div{
+  width:25%;
+ display: flex;
+ margin-left: 5px;
+ position: relative;
+ left: 20px;
+ top: 10px;
+ 
+
+}
+.sub3 div a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    
+ }
+   
+.main{display: flex;
+    
+}
+
+body{
+    width:900px;
+    height: 170px;
+}
+.No2{
+    position: relative;
+    left: 90%;
+    margin-top: 20px;
+}
+.No2 div a{
+    padding-right: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.login a button{
+    background-color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border: none;
+    padding: 15px 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
 }
