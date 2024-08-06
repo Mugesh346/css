@@ -220,6 +220,10 @@ body{
     position: relative;
     top: 20px;
     left: 20px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
     
               }
 .container-1 div img{
@@ -232,10 +236,15 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 10%;
-    margin-right: 40px;
+    width: 100px;
     gap: 5px;
 }
+
+.container-1 div:hover {
+    background-color: #2b2a2a;
+    
+}
+
  .albums .a1{
      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    position: relative;
